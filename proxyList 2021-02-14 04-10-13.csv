@@ -1,0 +1,65 @@
+IP; Port; Location; MS; Proxy type; Safety
+195.228.133.203; 4153; Hungary Zalaszentgrot; 300 ms; SOCKS4; Alta
+34.203.142.175; 80; United States Ashburn; 560 ms; HTTP; Alta
+149.56.1.48; 8181; Canada Montreal; 1740 ms; SOCKS4; Alta
+199.119.74.245; 4145; Canada Saint-Gabriel; 700 ms; SOCKS4; Alta
+142.93.150.156; 8080; Canada Toronto; 580 ms; HTTP, HTTPS; no
+31.15.89.51; 1099; Russian Federation Anapa; 3300 ms; SOCKS4; Alta
+91.105.152.168; 4145; Russian Federation Kamen'-na-Obi; 3260 ms; SOCKS4; Alta
+195.210.172.46; 58350; Russian Federation Moscow; 3120 ms; SOCKS4; Alta
+91.206.148.243; 59175; Russian Federation; 280 ms; SOCKS4; Alta
+195.9.89.68; 3629; Russian Federation Moscow; 3100 ms; SOCKS4; Alta
+80.79.66.82; 3629; Kazakstan; 180 ms; SOCKS4; Alta
+178.19.247.25; 41624; Russian Federation Petrozavodsk; 160 ms; SOCKS4; Alta
+92.255.248.230; 61255; Russian Federation Nizhnekamsk; 120 ms; SOCKS4; Alta
+212.12.20.34; 45470; Russian Federation Tula; 3580 ms; SOCKS4; Alta
+95.79.112.74; 3629; Russian Federation Nizhniy Novgorod; 320 ms; SOCKS4; Alta
+78.29.32.35; 3629; Russian Federation Zlatoust; 160 ms; SOCKS4; Alta
+91.210.47.85; 30806; Russian Federation Krasnodar; 260 ms; SOCKS4; Alta
+195.211.30.115; 60507; Russian Federation Yekaterinburg; 420 ms; SOCKS4; Alta
+46.188.82.11; 54136; Russian Federation Moscow; 3080 ms; SOCKS4; Alta
+81.163.62.221; 50919; Russian Federation Makhachkala; 1300 ms; SOCKS4; Alta
+5.141.86.233; 60705; Russian Federation Yekaterinburg; 220 ms; SOCKS4; Alta
+143.255.54.245; 59616; Brazil Sao Raimundo Nonato; 4060 ms; SOCKS4; Alta
+95.71.125.50; 60867; ; 200 ms; SOCKS4; Alta
+1.10.189.84; 44452; Thailand; 1940 ms; SOCKS4; Alta
+109.70.189.51; 3629; Russian Federation Izberbash; 420 ms; SOCKS4; Alta
+92.252.241.202; 4145; Russian Federation Dimitrovgrad; 1200 ms; SOCKS4; Alta
+94.247.241.70; 51006; Russian Federation St Petersburg; 1120 ms; SOCKS4; Alta
+85.237.46.168; 60676; Russian Federation Kurgan; 3240 ms; SOCKS4; Alta
+109.233.212.105; 4145; Russian Federation Chelyabinsk; 100 ms; SOCKS4; Alta
+178.217.40.208; 4145; Russian Federation Kazan’; 360 ms; SOCKS4; Alta
+94.181.33.149; 40840; Russian Federation Chelyabinsk; 140 ms; SOCKS4; Alta
+62.183.98.181; 4145; Russian Federation Maykop; 340 ms; SOCKS4; Alta
+78.81.245.153; 4655; Russian Federation Pskov; 500 ms; SOCKS4; Alta
+31.28.99.25; 55767; Russian Federation Asbest; 1180 ms; SOCKS4; Alta
+123.231.230.58; 31196; Indonesia Jakarta; 4100 ms; SOCKS4; Alta
+81.177.73.10; 4153; Russian Federation; 300 ms; SOCKS4; Alta
+85.175.101.19; 4153; Russian Federation Belorechensk; 300 ms; SOCKS4; Alta
+46.182.130.71; 3629; Russian Federation Krasnoyarsk; 240 ms; SOCKS4; Alta
+212.33.240.140; 4145; Russian Federation Perm; 140 ms; SOCKS4; Alta
+178.76.254.130; 4145; Russian Federation; 1180 ms; SOCKS4; Alta
+195.9.80.22; 4145; Russian Federation Moscow; 100 ms; SOCKS4; Alta
+85.90.105.201; 42055; Russian Federation Belgorod; 1260 ms; SOCKS4; Alta
+176.120.220.199; 4145; Russian Federation Makhachkala; 260 ms; SOCKS4; Alta
+89.207.92.107; 4145; Russian Federation Povedniki; 80 ms; SOCKS4; Alta
+78.142.232.27; 4145; Russian Federation; 340 ms; SOCKS4; Alta
+176.98.156.64; 4145; Russian Federation Izberbash; 260 ms; SOCKS4; Alta
+217.72.1.254; 30357; Russian Federation Balashikha; 340 ms; SOCKS4; Alta
+177.184.139.81; 36270; Brazil Fortaleza; 4000 ms; SOCKS4; Alta
+82.142.135.10; 4145; Russian Federation Moscow; 100 ms; SOCKS4; Alta
+186.219.96.47; 49923; Brazil Ourinhos; 1360 ms; SOCKS4; Alta
+178.155.12.177; 52836; Russian Federation Krasnodar; 500 ms; SOCKS4; Alta
+109.197.93.133; 43797; Russian Federation; 300 ms; SOCKS4; Alta
+89.249.244.111; 4145; Russian Federation Moscow; 100 ms; SOCKS4; Alta
+217.76.45.235; 4153; Russian Federation Moscow; 100 ms; SOCKS4; Alta
+79.173.124.177; 4153; Russian Federation Kirishi; 120 ms; SOCKS4; Alta
+82.151.120.59; 4153; Russian Federation Belgorod; 260 ms; SOCKS4; Alta
+217.25.221.60; 4145; Russian Federation Omsk; 200 ms; SOCKS4; Alta
+91.203.36.102; 48641; Russian Federation Tyumen; 220 ms; SOCKS4; Alta
+188.235.34.146; 1080; Russian Federation Voronezh; 40 ms; SOCKS4; Alta
+91.197.135.17; 4153; Ukraine; 360 ms; SOCKS4; Alta
+85.30.248.210; 4153; Russian Federation Moscow; 80 ms; SOCKS4; Alta
+94.159.6.254; 4153; Russian Federation Moscow; 80 ms; SOCKS4; Alta
+91.143.46.78; 4153; Russian Federation Moscow; 80 ms; SOCKS4; Alta
+194.85.124.150; 4153; Russian Federation; 200 ms; SOCKS4; Alta
