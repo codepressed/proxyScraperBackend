@@ -5,13 +5,11 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.io.Serializable;
-import java.util.Objects;
 
 @Document(collection = "Proxies")
 public class Proxy implements Serializable {
     @Id
     private Integer id;
-
     private String ip;
     private Integer port;
     private String location;
@@ -99,4 +97,5 @@ public class Proxy implements Serializable {
                 ", safety='" + safety + '\'' +
                 '}';
     }
+
 }

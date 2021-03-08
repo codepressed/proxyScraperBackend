@@ -1,4 +1,4 @@
-package com.rionacko.proxyScraperDB.proxy.helper;
+package com.rionacko.proxyScraperDB.proxy.scraper;
 
 import com.rionacko.proxyScraperDB.proxy.document.Proxy;
 import org.jsoup.Jsoup;

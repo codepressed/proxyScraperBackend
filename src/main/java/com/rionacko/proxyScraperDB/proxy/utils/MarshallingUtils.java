@@ -1,15 +1,17 @@
-package com.rionacko.proxyScraperDB.proxy.helper;
+package com.rionacko.proxyScraperDB.proxy.utils;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.rionacko.proxyScraperDB.proxy.document.Proxy;
+import com.rionacko.proxyScraperDB.proxy.helper.ProxyBinding;
+import com.rionacko.proxyScraperDB.proxy.scraper.ProxyScraper;
 
 import java.io.*;
 import java.util.List;
 
-public class Utils {
-    private static ProxyScraper proxyScraper = new ProxyScraper();
-    private String JSONFileName = "proxyList.json";
+public class MarshallingUtils {
+    private final static ProxyScraper proxyScraper = new ProxyScraper();
+    private final static String JSONFileName = "proxyList.json";
 
     public static List<Proxy> getProxyList() throws IOException {
         return proxyScraper.proxyList();
@@ -19,14 +21,14 @@ public class Utils {
         ProxyBinding proxyBinding = new ProxyBinding();
         List<Proxy> proxies = null;
         try {
-            proxies = Utils.getProxyList();
+            proxies = MarshallingUtils.getProxyList();
         } catch (IOException e) {
             e.printStackTrace();
         }
         proxyBinding.setProxylist(proxies);
-        String json = Utils.marshallJSON(proxyBinding);
-        Utils.generateJson(JSONFileName, json);
-        ProxyBinding bindToUnmarshall = Utils.unmarshallJSON(JSONFileName);
+        String json = MarshallingUtils.marshalling(proxyBinding);
+        MarshallingUtils.generateJson(JSONFileName, json);
+        ProxyBinding bindToUnmarshall = MarshallingUtils.unmarshalling(JSONFileName);
         try {
             return bindToUnmarshall.getProxylist();
         } catch (Exception e) {
@@ -35,9 +37,9 @@ public class Utils {
         }
     }
 
-    public static File generateJson(String fileName, String fileContent){
+    public static void generateJson(String fileName, String fileContent){
         FileWriter fileWriter = null;
-        PrintWriter printWriter = null;
+        PrintWriter printWriter;
         File file = null;
         try{
             file = new File(fileName);
@@ -56,10 +58,9 @@ public class Utils {
             }
         }
 
-        return file;
     }
 
-    public static <T extends Serializable> String marshallJSON(T item) {
+    public static <T extends Serializable> String marshalling(T item) {
         ObjectMapper mapper = new ObjectMapper();
         try {
             return mapper.writeValueAsString(item);
@@ -69,7 +70,7 @@ public class Utils {
         }
     }
 
-    public static ProxyBinding unmarshallJSON(String file) {
+    public static ProxyBinding unmarshalling(String file) {
         ObjectMapper mapper = new ObjectMapper();
         try {
             return mapper.readValue(new File(file), ProxyBinding.class);
@@ -78,12 +79,5 @@ public class Utils {
         }
         return null;
     }
-
-
-
-
-
-
-
 }
 

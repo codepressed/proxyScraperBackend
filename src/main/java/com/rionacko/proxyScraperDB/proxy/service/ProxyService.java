@@ -2,15 +2,11 @@ package com.rionacko.proxyScraperDB.proxy.service;
 
 import com.rionacko.proxyScraperDB.proxy.document.Proxy;
 import com.rionacko.proxyScraperDB.proxy.document.ProxyRepository;
-import com.rionacko.proxyScraperDB.proxy.helper.Utils;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.rionacko.proxyScraperDB.proxy.utils.MarshallingUtils;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
-import java.util.Optional;
 
 @Component
 public class ProxyService implements CommandLineRunner {
@@ -23,7 +19,7 @@ public class ProxyService implements CommandLineRunner {
 
 
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args) throws Exception{
         getProxyData();
         this.PROXYREPOSITORY.deleteAll();
         for(int i = 0; i < proxyList.size(); i++){
@@ -35,7 +31,7 @@ public class ProxyService implements CommandLineRunner {
     }
 
     public void getProxyData(){
-        Utils utils = new Utils();
-        proxyList = utils.getProxyListForRepository();
+        MarshallingUtils marshallingUtils = new MarshallingUtils();
+        proxyList = marshallingUtils.getProxyListForRepository();
     }
 }
